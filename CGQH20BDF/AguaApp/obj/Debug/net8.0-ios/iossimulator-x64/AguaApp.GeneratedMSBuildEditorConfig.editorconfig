@@ -1,0 +1,73 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AguaApp
+build_property.ProjectDir = C:\Users\Dell\Documents\GitHub\H20BDF\AguaApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Dell/Documents/GitHub/H20BDF/AguaApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AguaApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Dell/Documents/GitHub/H20BDF/AguaApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AguaApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Dell/Documents/GitHub/H20BDF/AguaApp/IncidenciasPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AguaApp.IncidenciasPage.xaml
+build_metadata.AdditionalFiles.TargetPath = IncidenciasPage.xaml
+build_metadata.AdditionalFiles.RelativePath = IncidenciasPage.xaml
+
+[C:/Users/Dell/Documents/GitHub/H20BDF/AguaApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AguaApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Dell/Documents/GitHub/H20BDF/AguaApp/MedidoresPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AguaApp.MedidoresPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MedidoresPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MedidoresPage.xaml
+
+[C:/Users/Dell/Documents/GitHub/H20BDF/AguaApp/PagosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AguaApp.PagosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = PagosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = PagosPage.xaml
+
+[C:/Users/Dell/Documents/GitHub/H20BDF/AguaApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AguaApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Dell/Documents/GitHub/H20BDF/AguaApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AguaApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Dell/Documents/GitHub/H20BDF/AguaApp/UsuariosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AguaApp.UsuariosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = UsuariosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = UsuariosPage.xaml

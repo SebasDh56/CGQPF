@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "AguaApp\\CGQAguaApp.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "APIagua\\CGQAPIagua.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "H2ODBF\\H2ODBF\\CGQH2ODBF.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

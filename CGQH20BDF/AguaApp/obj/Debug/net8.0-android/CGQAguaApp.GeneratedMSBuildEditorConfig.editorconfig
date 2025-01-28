@@ -1,0 +1,73 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AguaApp
+build_property.ProjectDir = C:\Users\usuario\Documents\GitHub\CGQPF\CGQH20BDF\CGQH20BDF\AguaApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/usuario/Documents/GitHub/CGQPF/CGQH20BDF/CGQH20BDF/AguaApp/CGQApp.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AguaApp.CGQApp.xaml
+build_metadata.AdditionalFiles.TargetPath = CGQApp.xaml
+build_metadata.AdditionalFiles.RelativePath = CGQApp.xaml
+
+[C:/Users/usuario/Documents/GitHub/CGQPF/CGQH20BDF/CGQH20BDF/AguaApp/CGQAppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AguaApp.CGQAppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = CGQAppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = CGQAppShell.xaml
+
+[C:/Users/usuario/Documents/GitHub/CGQPF/CGQH20BDF/CGQH20BDF/AguaApp/CGQIncidenciasPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AguaApp.CGQIncidenciasPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CGQIncidenciasPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CGQIncidenciasPage.xaml
+
+[C:/Users/usuario/Documents/GitHub/CGQPF/CGQH20BDF/CGQH20BDF/AguaApp/CGQMainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AguaApp.CGQMainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CGQMainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CGQMainPage.xaml
+
+[C:/Users/usuario/Documents/GitHub/CGQPF/CGQH20BDF/CGQH20BDF/AguaApp/CGQMedidoresPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AguaApp.CGQMedidoresPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CGQMedidoresPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CGQMedidoresPage.xaml
+
+[C:/Users/usuario/Documents/GitHub/CGQPF/CGQH20BDF/CGQH20BDF/AguaApp/CGQPagosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AguaApp.CGQPagosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CGQPagosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CGQPagosPage.xaml
+
+[C:/Users/usuario/Documents/GitHub/CGQPF/CGQH20BDF/CGQH20BDF/AguaApp/CGQUsuariosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AguaApp.CGQUsuariosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CGQUsuariosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CGQUsuariosPage.xaml
+
+[C:/Users/usuario/Documents/GitHub/CGQPF/CGQH20BDF/CGQH20BDF/AguaApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AguaApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/usuario/Documents/GitHub/CGQPF/CGQH20BDF/CGQH20BDF/AguaApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AguaApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

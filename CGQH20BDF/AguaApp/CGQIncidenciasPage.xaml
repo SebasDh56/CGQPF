@@ -1,0 +1,30 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AguaApp.IncidenciasPage">
+
+    <StackLayout>
+        <Label Text="Lista de Incidencias"
+               FontSize="Large"
+               HorizontalOptions="Center" />
+        <ListView x:Name="incidenciasListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" Padding="10">
+                            <Label Text="ID Incidencia:" FontAttributes="Bold" />
+                            <Label Text="{Binding idIncidencia}" />
+                            <Label Text="Tipo de Incidencia:" FontAttributes="Bold" />
+                            <Label Text="{Binding tipoIncidencia}" />
+                            <Label Text="Fecha Reporte:" FontAttributes="Bold" />
+                            <Label Text="{Binding fechaReporte}" />
+                            <Label Text="Estado:" FontAttributes="Bold" />
+                            <Label Text="{Binding estado}" />
+                            <Label Text="Detalle de Resolución:" FontAttributes="Bold" />
+                            <Label Text="{Binding detalleResolucion}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+    </ContentPage>

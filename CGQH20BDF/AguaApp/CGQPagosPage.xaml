@@ -1,0 +1,30 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AguaApp.PagosPage">
+
+    <StackLayout>
+        <Label Text="Lista de Pagos"
+               FontSize="Large"
+               HorizontalOptions="Center" />
+        <ListView x:Name="pagosListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" Padding="10">
+                            <Label Text="ID Pago:" FontAttributes="Bold" />
+                            <Label Text="{Binding idPago}" />
+                            <Label Text="Fecha de Pago:" FontAttributes="Bold" />
+                            <Label Text="{Binding fechaPago}" />
+                            <Label Text="Monto Pagado:" FontAttributes="Bold" />
+                            <Label Text="{Binding montoPagado}" />
+                            <Label Text="Método de Pago:" FontAttributes="Bold" />
+                            <Label Text="{Binding metodoPago}" />
+                            <Label Text="Estado:" FontAttributes="Bold" />
+                            <Label Text="{Binding estado}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

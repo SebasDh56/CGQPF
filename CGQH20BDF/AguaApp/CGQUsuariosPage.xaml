@@ -1,0 +1,26 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AguaApp.UsuariosPage">
+
+    <StackLayout>
+        <Label Text="Lista de Usuarios"
+               FontSize="Large"
+               HorizontalOptions="Center" />
+        <ListView x:Name="usuariosListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Padding="10">
+                            <Label Text="{Binding nombre}" FontAttributes="Bold" WidthRequest="100" />
+                            <Label Text="{Binding apellido}" WidthRequest="100" />
+                            <Label Text="{Binding correo}" WidthRequest="200" />
+                            <Label Text="{Binding estadoServicio}" WidthRequest="100" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
+
+

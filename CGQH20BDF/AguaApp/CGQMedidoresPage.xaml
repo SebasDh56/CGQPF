@@ -1,0 +1,34 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AguaApp.MedidoresPage">
+
+    <StackLayout>
+        <Label Text="Lista de Medidores"
+               FontSize="Large"
+               HorizontalOptions="Center" />
+        <ListView x:Name="medidoresListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" Padding="10">
+                            <Label Text="ID Medidor:" FontAttributes="Bold" />
+                            <Label Text="{Binding idMedidor}" />
+                            <Label Text="Número de Serie:" FontAttributes="Bold" />
+                            <Label Text="{Binding numeroSerie}" />
+                            <Label Text="Fecha de Instalación:" FontAttributes="Bold" />
+                            <Label Text="{Binding fechaInstalacion}" />
+                            <Label Text="Tipo de Medidor:" FontAttributes="Bold" />
+                            <Label Text="{Binding tipoMedidor}" />
+                            <Label Text="Ubicación:" FontAttributes="Bold" />
+                            <Label Text="{Binding ubicacion}" />
+                            <Label Text="Estado:" FontAttributes="Bold" />
+                            <Label Text="{Binding estado}" />
+                            <Label Text="Fecha Última Revisión:" FontAttributes="Bold" />
+                            <Label Text="{Binding fechaUltimaRevision}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

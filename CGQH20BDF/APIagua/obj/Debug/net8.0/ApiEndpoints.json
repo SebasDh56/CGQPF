@@ -1,0 +1,923 @@
+[
+  {
+    "ContainingType": "APIagua.Controllers.CGQEmpleadoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEmpleadoEndpoints\u003Eb__0_0",
+    "RelativePath": "api/Empleado/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[APIagua.Data.Models.Empleado, CGQAPIagua, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Empleado"
+    ],
+    "EndpointName": "GetAllEmpleados"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQEmpleadoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEmpleadoEndpoints\u003Eb__0_3",
+    "RelativePath": "api/Empleado/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empleado",
+        "Type": "APIagua.Data.Models.Empleado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIagua.Data.Models.Empleado",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "Tags": [
+      "Empleado"
+    ],
+    "EndpointName": "CreateEmpleado"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQEmpleadoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEmpleadoEndpoints\u003Eb__0_1",
+    "RelativePath": "api/Empleado/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idempleado",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIagua.Data.Models.Empleado",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Empleado"
+    ],
+    "EndpointName": "GetEmpleadoById"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQEmpleadoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEmpleadoEndpoints\u003Eb__0_2",
+    "RelativePath": "api/Empleado/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idempleado",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "empleado",
+        "Type": "APIagua.Data.Models.Empleado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Empleado"
+    ],
+    "EndpointName": "UpdateEmpleado"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQEmpleadoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEmpleadoEndpoints\u003Eb__0_4",
+    "RelativePath": "api/Empleado/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idempleado",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Empleado"
+    ],
+    "EndpointName": "DeleteEmpleado"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQFacturaEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFacturaEndpoints\u003Eb__0_0",
+    "RelativePath": "api/Factura/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[APIagua.Data.Models.Factura, CGQAPIagua, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Factura"
+    ],
+    "EndpointName": "GetAllFacturas"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQFacturaEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFacturaEndpoints\u003Eb__0_3",
+    "RelativePath": "api/Factura/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "factura",
+        "Type": "APIagua.Data.Models.Factura",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIagua.Data.Models.Factura",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "Tags": [
+      "Factura"
+    ],
+    "EndpointName": "CreateFactura"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQFacturaEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFacturaEndpoints\u003Eb__0_1",
+    "RelativePath": "api/Factura/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idfactura",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIagua.Data.Models.Factura",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Factura"
+    ],
+    "EndpointName": "GetFacturaById"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQFacturaEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFacturaEndpoints\u003Eb__0_2",
+    "RelativePath": "api/Factura/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idfactura",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "factura",
+        "Type": "APIagua.Data.Models.Factura",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Factura"
+    ],
+    "EndpointName": "UpdateFactura"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQFacturaEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFacturaEndpoints\u003Eb__0_4",
+    "RelativePath": "api/Factura/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idfactura",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Factura"
+    ],
+    "EndpointName": "DeleteFactura"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQIncidenciumEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapIncidenciumEndpoints\u003Eb__0_0",
+    "RelativePath": "api/Incidencium/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[APIagua.Data.Models.Incidencium, CGQAPIagua, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Incidencium"
+    ],
+    "EndpointName": "GetAllIncidencia"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQIncidenciumEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapIncidenciumEndpoints\u003Eb__0_3",
+    "RelativePath": "api/Incidencium/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incidencium",
+        "Type": "APIagua.Data.Models.Incidencium",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIagua.Data.Models.Incidencium",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "Tags": [
+      "Incidencium"
+    ],
+    "EndpointName": "CreateIncidencium"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQIncidenciumEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapIncidenciumEndpoints\u003Eb__0_1",
+    "RelativePath": "api/Incidencium/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idincidencia",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIagua.Data.Models.Incidencium",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Incidencium"
+    ],
+    "EndpointName": "GetIncidenciumById"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQIncidenciumEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapIncidenciumEndpoints\u003Eb__0_2",
+    "RelativePath": "api/Incidencium/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idincidencia",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "incidencium",
+        "Type": "APIagua.Data.Models.Incidencium",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Incidencium"
+    ],
+    "EndpointName": "UpdateIncidencium"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQIncidenciumEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapIncidenciumEndpoints\u003Eb__0_4",
+    "RelativePath": "api/Incidencium/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idincidencia",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Incidencium"
+    ],
+    "EndpointName": "DeleteIncidencium"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQMedidorEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapMedidorEndpoints\u003Eb__0_0",
+    "RelativePath": "api/Medidor/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[APIagua.Data.Models.Medidor, CGQAPIagua, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Medidor"
+    ],
+    "EndpointName": "GetAllMedidors"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQMedidorEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapMedidorEndpoints\u003Eb__0_3",
+    "RelativePath": "api/Medidor/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medidor",
+        "Type": "APIagua.Data.Models.Medidor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIagua.Data.Models.Medidor",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "Tags": [
+      "Medidor"
+    ],
+    "EndpointName": "CreateMedidor"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQMedidorEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapMedidorEndpoints\u003Eb__0_1",
+    "RelativePath": "api/Medidor/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idmedidor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIagua.Data.Models.Medidor",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Medidor"
+    ],
+    "EndpointName": "GetMedidorById"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQMedidorEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapMedidorEndpoints\u003Eb__0_2",
+    "RelativePath": "api/Medidor/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idmedidor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "medidor",
+        "Type": "APIagua.Data.Models.Medidor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Medidor"
+    ],
+    "EndpointName": "UpdateMedidor"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQMedidorEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapMedidorEndpoints\u003Eb__0_4",
+    "RelativePath": "api/Medidor/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idmedidor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Medidor"
+    ],
+    "EndpointName": "DeleteMedidor"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQPagoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPagoEndpoints\u003Eb__0_0",
+    "RelativePath": "api/Pago/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[APIagua.Data.Models.Pago, CGQAPIagua, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Pago"
+    ],
+    "EndpointName": "GetAllPagos"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQPagoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPagoEndpoints\u003Eb__0_3",
+    "RelativePath": "api/Pago/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pago",
+        "Type": "APIagua.Data.Models.Pago",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIagua.Data.Models.Pago",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "Tags": [
+      "Pago"
+    ],
+    "EndpointName": "CreatePago"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQPagoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPagoEndpoints\u003Eb__0_1",
+    "RelativePath": "api/Pago/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idpago",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIagua.Data.Models.Pago",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Pago"
+    ],
+    "EndpointName": "GetPagoById"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQPagoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPagoEndpoints\u003Eb__0_2",
+    "RelativePath": "api/Pago/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idpago",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pago",
+        "Type": "APIagua.Data.Models.Pago",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Pago"
+    ],
+    "EndpointName": "UpdatePago"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQPagoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPagoEndpoints\u003Eb__0_4",
+    "RelativePath": "api/Pago/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idpago",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Pago"
+    ],
+    "EndpointName": "DeletePago"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQUsuarioEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapUsuarioEndpoints\u003Eb__0_0",
+    "RelativePath": "api/Usuario/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[APIagua.Data.Models.Usuario, CGQAPIagua, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Usuario"
+    ],
+    "EndpointName": "GetAllUsuarios"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQUsuarioEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapUsuarioEndpoints\u003Eb__0_3",
+    "RelativePath": "api/Usuario/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "APIagua.Data.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIagua.Data.Models.Usuario",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "Tags": [
+      "Usuario"
+    ],
+    "EndpointName": "CreateUsuario"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQUsuarioEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapUsuarioEndpoints\u003Eb__0_1",
+    "RelativePath": "api/Usuario/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idusuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIagua.Data.Models.Usuario",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Usuario"
+    ],
+    "EndpointName": "GetUsuarioById"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQUsuarioEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapUsuarioEndpoints\u003Eb__0_2",
+    "RelativePath": "api/Usuario/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idusuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "usuario",
+        "Type": "APIagua.Data.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Usuario"
+    ],
+    "EndpointName": "UpdateUsuario"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.CGQUsuarioEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapUsuarioEndpoints\u003Eb__0_4",
+    "RelativePath": "api/Usuario/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idusuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      }
+    ],
+    "Tags": [
+      "Usuario"
+    ],
+    "EndpointName": "DeleteUsuario"
+  },
+  {
+    "ContainingType": "APIagua.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APIagua.WeatherForecast, CGQAPIagua, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

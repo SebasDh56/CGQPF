@@ -1,0 +1,27 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AguaApp.CGQViewModel"
+             x:Class="AguaApp.MainPage">
+
+    <ContentPage.BindingContext>
+        <local:CGQSearchViewModel />
+    </ContentPage.BindingContext>
+
+    <StackLayout Padding="20" Spacing="10">
+        <Entry Placeholder="Buscar por nombre"
+               Text="{Binding SearchQuery}" />
+
+        <Button Text="Buscar"
+                Command="{Binding SearchCommand}"
+                IsEnabled="{Binding IsSearching, Converter={StaticResource InverseBoolConverter}}" />
+
+        <ActivityIndicator IsRunning="{Binding IsSearching}" IsVisible="{Binding IsSearching}" />
+
+        <StackLayout IsVisible="{Binding SelectedUser}">
+            <Image Source="{Binding SelectedUser.Picture}" HeightRequest="100" WidthRequest="100" />
+            <Label Text="{Binding SelectedUser.Name}" FontSize="Medium" />
+            <Label Text="{Binding SelectedUser.Email}" FontSize="Small" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
+
